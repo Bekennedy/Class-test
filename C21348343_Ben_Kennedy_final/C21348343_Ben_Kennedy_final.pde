@@ -86,7 +86,7 @@ while (y <= eyes*20){
 }
 }
 void text(){
-String[] words = { "Bart", "fellur", "garfeilf", "feddy" };
+String[] words = { "Bart", "fellur", "garfeilf", "feddy","doktur" };
 int naming = int(random(words.length));  // Same as int(random(4))
 
 println(words[naming]);  // Prints one of the four words
